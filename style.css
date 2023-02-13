@@ -1,19 +1,216 @@
+body{
+    font-family: 'Inter';
+    font-style: normal;
+}
+
 #fondo{
     position: absolute;
     width: 1366px;
-    height: 768px;
+    height: 766px;
     left: 0px;
     top: 0px;
-    background: url(Restaurant.jpg), rgba(60, 65, 64, 0.84);
+    background: url(Restaurant.jpg);
 } 
 
 #central{
     position: absolute;
-    width: 795px;
-    height: 768px;
-    left: 571px;
+    width: 792px;
+    height: 766px;
+    left: 574px;
     top: 0px;
     
     background: #FFFFFF;
     border-radius: 24px 0px 0px 24px;
+}
+
+.Text{
+    position: absolute;
+    width: 627px;
+    height: 224px;
+    left: 0px;
+    top: -5px;
+    background: #D9D9D9;
+    opacity: 0.6;
+}
+
+#title{
+    position: absolute;
+    width: 582px;
+    height: 119px;
+    left: 23px;
+    top: 48px;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 42px;
+    color: #000000;
+}
+
+#logo{
+    position: absolute;
+    width: 246px;
+    height: 258px;
+    left: 272px;
+    top: -39px;
+}
+
+.idioma{
+    position: absolute;
+    width: 149px;
+    height: 39px;
+    left: 660px;
+    top: 10px;
+}
+
+#Create{
+    position: absolute;
+    width: 311px;
+    height: 35px;
+    left: 136px;
+    top: 219px;
+    width: 291px;
+    height: 29px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.icons{
+    width: 36px;
+    height: 36px;
+}
+
+#btning{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 10px 8px;
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    left: 136px;
+    top: 288px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+#btninf{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 0px 10px 8px;
+    position: absolute;
+    width: 249px;
+    height: 40px;
+    left: 405px;
+    top: 288px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+}
+
+
+.in{
+    width: 172px;
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+#or{
+    position: absolute;
+    width: 91px;
+    height: 34px;
+    left: 335px;
+    top: 362px;
+    width: 71px;
+    height: 29px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgba(26, 23, 23, 0.38);
+}
+
+#name{
+    position: absolute;
+    width: 502px;
+    height: 28px;
+    left: 136px;
+    top: 430px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    width: 502px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(26, 23, 23, 0.38);
+}
+
+#gmail{
+    position: absolute;
+    width: 502px;
+    height: 25px;
+    left: 136px;
+    top: 499px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    width: 502px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(26, 23, 23, 0.38);
+}
+
+#pass{
+    position: absolute;
+    width: 502px;
+    height: 28px;
+    left: 136px;
+    top: 565px;
+    border-top: 1px;
+    border-left: 1px;
+    border-right: 1px;
+    width: 502px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(26, 23, 23, 0.38);
+}
+
+#btncreate{
+    align-items: center;
+    position: absolute;
+    width: 502px;
+    height: 54px;
+    left: 136px;
+    top: 634px;
+    background: #279574;
+    border-radius: 8px;
+}
+
+.bold{
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#recovery{
+    position: absolute;
+    width: 330px;
+    height: 31px;
+    left: 144px;
+    top: 676px;
+    Font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
 }
